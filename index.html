@@ -1,23 +1,65 @@
 <!DOCTYPE html>
 <html>
 
-<head>
-    <title>under construction</title>
-    <!-- <link rel="stylesheet" type="text/css" href="style.css"> -->
-    <style>
-        h1, h2 {
-            color: gray;
-        }
-    </style>
-</head>
+    <head>
+        <title>under construction</title>
+        <!-- <link rel="stylesheet" type="text/css" href="style.css"> -->
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Chivo+Mono:ital,wght@0,100..900;1,100..900&display=swap');
 
-<body>
-    <div align="center">
-        <h1><i>under construction</i></h1>
-        <h2><i>check back later</i></h2>
-    </div>
-</body>
+            body {
+                background-color: #0a0a0a;
+            }
 
-<!-- test -->
+            #container {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                text-align: center;
+                min-height: 100vh;
+                flex-direction: column;
+            }
+
+            h1 {
+                font-family: "Chivo Mono";
+                font-size: 72px;
+                margin-top: 0px;
+                margin-bottom: 0px;
+
+                /* linear-gradient(35deg, #a754b3 0%, #5754b3 100%) */
+
+                background: -webkit-linear-gradient(#a754b3, #5754b3);
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+            }
+
+            img {
+                width: 50px;
+                border-radius: 25px;
+                margin-left: 5px;
+                margin-right: 5px;
+                transition: filter 0.2s, transform 0.2s;
+            }
+
+            img:hover {
+                filter: drop-shadow(0px 0px 6px #ffffff);
+                transform: translate(0px, 10px);
+            }
+        </style>
+    </head>
+
+    <body>
+        <div id="container">
+            <h1>cyndifusic</h1>
+
+            <div id="icons">
+                <a href="https://www.youtube.com/@kataryn/" target="_blank"><img src="icons/yt.png"></a>
+                <a href="https://twitter.com/cyndifusic/" target="_blank"><img src="icons/twt.png"></a>
+                <a href="https://twitch.tv/cyndifusic/" target="_blank"><img src="icons/tw.png"></a>
+                <a href="https://www.speedrun.com/users/cyndifusic/" target="_blank"><img src="icons/src.png"></a>
+                <a href="https://osu.ppy.sh/users/19044162/" target="_blank"><img src="icons/osu.png"></a>
+            </div>
+        </div>
+    </body>
 
 </html>
