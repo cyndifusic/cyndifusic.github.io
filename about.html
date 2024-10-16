@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <title>cyndifusic</title>
+        <link rel="icon" type="image/x-icon" href="favicon.ico">
+        
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Chivo+Mono:ital,wght@0,100..900;1,100..900&display=swap');
+
+            body {
+                background-color: #0a0a0a;
+                font-family: "Chivo Mono";
+                font-variant-ligatures: none;
+            }
+
+            #container {
+                display: flex;
+                align-items: center;
+                flex-direction: column;
+            }
+
+            #containerA {
+                padding-top: 20px;
+                padding-left: 20px;
+                max-width: 800px;
+            }
+
+            h1 {
+                font-size: 72px;
+                margin-top: -10px;
+                margin-bottom: 0px;
+
+                /* linear-gradient(35deg, #a754b3 0%, #5754b3 100%) */
+
+                background: -webkit-linear-gradient(#a754b3, #5754b3);
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+            }
+
+            p {
+                color: white;
+                font-size: 20px;
+            }
+
+            a {
+                color: #a754b3;
+            }
+            
+            a:hover {
+                color: #5754b3;
+            }
+
+            #links-internal {
+                position: absolute;
+                bottom: 10px;
+            }
+
+            #links-internal > p, #links-internal > p > a {
+                font-size: 14px;
+                color: #8c8c8c;
+            }
+
+            #links-internal > p > a:hover {
+                color: #b5b5b5;
+            }
+        </style>
+    </head>
+
+    <body>
+
+        <div id="containerA">
+            <h1>cyndifusic</h1>
+
+            <p>I've been putting content on the Internet for <span id="years"></span> years.
+            
+            <br><br>I'm probably most well known for YouTube videos like <a href="https://www.youtube.com/watch?v=9Zay5lEeMlk">this one</a>, 
+            but there's a lot of other stuff I do. I write code (hopefully for a
+            living soon), which is how I made this website. That blends into 
+            why I mod Wii games, which blends into why I speedrun Wii games, 
+            which blends into why I speedrun <i>other</i> games, which blends into 
+            why I create content for other games, like osu!. Maybe one day 
+            I'll bring the chain full-circle and start writing code for osu!. 
+            That'd be funny.
+        
+            <br><br>Completely unrelated to any of that, I'm also a musician. I like
+            playing bass.
+
+            <br><br>I do stream from time to time, but my most notable output tends to
+            rqeuire long-term creativity. I like expressing my knowledge
+            through writing and other forms of art, and that takes time.
+            However, my best live "performances" are probably my commentary
+            for speedrun competitions. Here's some <a href="https://www.twitch.tv/videos/2199816391" target="_blank">on-site commentary</a> I did
+            for an event in 2023.
+
+            <br><br>The website is called "kataryn.com" because my first name is 
+            Kataryn. No, it's really not that weird, it's just like if
+            "Kathryn" had another "A". Or if "Katarina" had a "ryn".
+        
+        </p>
+        </div>
+
+        <div id="container">
+            <div id="links-internal">
+                <p><a href="https://github.com/cyndifusic/cyndifusic.github.io" target="_blank">source code</a> • <a href="index.html">home</a></p>
+            </div>
+        </div>
+
+        <script src="about.js"></script>
+    </body>
+
+</html>

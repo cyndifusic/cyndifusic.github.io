@@ -10,6 +10,7 @@
 
             body {
                 background-color: #0a0a0a;
+                font-family: "Chivo Mono";
             }
 
             #container {
@@ -17,12 +18,12 @@
                 justify-content: center;
                 align-items: center;
                 text-align: center;
-                min-height: 100vh;
+                min-height: 98vh;
                 flex-direction: column;
+                
             }
 
             h1 {
-                font-family: "Chivo Mono";
                 font-size: 72px;
                 margin-top: 0px;
                 margin-bottom: 0px;
@@ -46,6 +47,20 @@
                 filter: drop-shadow(0px 0px 6px #ffffff);
                 transform: translate(0px, 10px);
             }
+
+            #links-internal {
+                position: absolute;
+                bottom: 10px;
+            }
+
+            #links-internal > p, #links-internal > p > a {
+                font-size: 14px;
+                color: #8c8c8c;
+            }
+
+            #links-internal > p > a:hover {
+                color: #b5b5b5;
+            }
         </style>
     </head>
 
@@ -59,6 +74,10 @@
                 <a href="https://twitch.tv/cyndifusic/" target="_blank"><img src="icons/tw.png"></a>
                 <a href="https://www.speedrun.com/users/cyndifusic/" target="_blank"><img src="icons/src.png"></a>
                 <a href="https://osu.ppy.sh/users/19044162/" target="_blank"><img src="icons/osu.png"></a>
+            </div>
+
+            <div id="links-internal">
+                <p><a href="https://github.com/cyndifusic/cyndifusic.github.io" target="_blank">source code</a> • <a href="about.html">about</a></p>
             </div>
         </div>
     </body>
