@@ -1,0 +1,153 @@
+body {
+    font-family: "Franklin Gothic Book";
+}
+
+span {
+    font-family: "Tahoma";
+    font-size: 14px;
+}
+
+a {
+    color: white;
+}
+
+a:hover {
+    color: #e6d5ed;
+}
+
+td {
+    vertical-align: top;
+}
+
+td:not(#header_top) {
+    background-color: #dddddd;
+}
+
+.bold, h1, h2 {
+    font-family: "Franklin Gothic Medium";
+}
+
+.main {
+    width: 672px;
+}
+
+.main > div {
+    float: left;
+}
+
+.header {
+    width: 752px;
+}
+
+.sidebar {
+    width: 85px;
+}
+
+.icons {
+    padding-bottom: 10px;
+    filter: drop-shadow(3px 3px 6px #999999);
+    z-index: 1;
+    position: relative;
+}
+
+.icons:active {
+    filter: brightness(115%);
+}
+
+#header_top {
+    height: 77px;
+}
+
+#header_pad {
+    line-height: 0;
+}
+
+#header_bottom {
+    height: 28px;
+}
+
+#left_text_1 {
+    max-width: 362px;
+}
+
+#left_text_1 > h2 {
+    display: inline;
+}
+
+#topfill {
+    width: 686px;
+}
+
+#links {
+    padding-left: 12px;
+    font-size: 24px;
+    color: white;
+    vertical-align: top;
+}
+
+#links > p {
+    margin-top: 8px;
+}
+
+#container {
+    width: 752px;
+    margin: 0 auto;
+    margin-top: -8px;
+}
+
+#nub {
+    width: 89px;
+}
+
+#icons {
+    padding-left: 20px;
+    z-index: 1;
+}
+
+#text_main {
+    vertical-align: top;
+    margin-top: -40px;
+    margin-left: 30px;
+    max-width: 496px;
+}
+
+#text_main > h1 {
+    font-size: 52px;
+    letter-spacing: -0.07em;
+    margin-bottom: 0px;
+}
+
+#quote {
+    text-align: right;
+    margin-top: 0px;
+    font-size: 24px;
+    letter-spacing: 0.4em;
+    color: #555555;
+}
+
+#icon_container, #text_container {
+    position: relative;
+    height: auto;
+}
+
+#ytbar {
+    position: absolute;
+    left: 21px;
+    bottom: 13px;
+    z-index: 0;
+}
+
+#sidefill {
+    position: absolute;
+    bottom: 0px;
+    right: -21px;
+    left: 426.267px;
+}
+
+#adjusters {
+    padding-bottom: 5px;
+}
+
+#encouragement {
+    font-size: 13px;
+}
