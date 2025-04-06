@@ -1,3 +1,24 @@
+@font-face {
+    font-family: "Franklin Gothic Book";
+    src: 
+        local("Franklin Gothic Book"), 
+        url("fonts/FRABK.TTF") format("truetype");
+}
+
+@font-face {
+    font-family: "Franklin Gothic Medium";
+    src: 
+        local("Franklin Gothic Medium"), 
+        url("fonts/framd.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Tahoma";
+    src: 
+        local("Tahoma"), 
+        url("fonts/tahoma.ttf") format("truetype");
+}
+
 body {
     font-family: "Franklin Gothic Book";
 }
